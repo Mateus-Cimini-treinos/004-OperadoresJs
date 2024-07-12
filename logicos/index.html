@@ -1,0 +1,79 @@
+<!-- html mostrandos os simbolos logicos -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relacionais</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: #333;
+            color: aliceblue;
+            font-family: sans-serif;
+            
+        }
+        .content{
+            display: flex;
+            justify-content: space-evenly;   
+        }
+
+
+        #operadores{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        #nome{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>logicos</h1>
+    </header>
+    <div class="content">
+    <div id="operadores">
+        <h1>Simbolos</h1>
+    <p>!</p>
+    <p>&&</p>
+    <p>||</p>
+ 
+    </div>
+
+    <div id="nome">
+        <h1>nomes</h1>
+        <p>NEGAÇAO</p>
+        <p>CONJUÇAO OU "E"</p>
+        <p>DINJUÇAO OU "OU"</p>
+</div>
+    </div>
+
+    <P> ! true = false   <br>  
+        ! false = true</P> <br>
+
+   <p> quero vermelho && azul  <br> </p>
+     <p>ㅤㅤvermelho && azul = true </p>     
+     <p>ㅤㅤ vermelho &&  verde = false</p>
+     <p>ㅤㅤ roxa &&  azul = false</p>
+     <p>ㅤㅤ rosa &&  verde = false</p>
+
+<br>
+<br>
+<br>
+    
+     <p> quero agua || pao  <br> </p>
+     <p>ㅤㅤpao || agua = true </p>     
+     <p>ㅤㅤ cerveja ||  pao = true</p>
+     <p>ㅤㅤ agua || chocolate = true</p>
+     <p>ㅤㅤ suco || queijo = false</p>
+    
+</body>
+</html>
